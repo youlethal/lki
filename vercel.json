@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "Lki",
+    "TEMPLATE_ID": "848ddfd5-c9b4-44ba-8c6e-0f760b06114a",
+    "MODULES": "gallery,appointments,staff,booking,social",
+    "THEME": "Light"
+  }
+}
